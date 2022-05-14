@@ -1,0 +1,727 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{13}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Introduction to Operating System}{13}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}What is an Operating System (OS)?}{14}{subsection.1.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.2}Architecture of OS}{15}{subsection.1.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.3}Types of OS}{17}{subsection.1.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.4}Practice}{18}{subsection.1.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Introduction to Linux}{19}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}What is Open Source Software (OSS)?}{20}{subsection.1.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{20}{section*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}What is Linux OS?}{21}{subsection.1.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{21}{section*.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Linux OS v/s Windows OS}{22}{subsection.1.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{22}{section*.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.4}Understanding console, terminal, command line and shell}{23}{subsection.1.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is a console and terminal?}{23}{section*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is a command line?}{23}{section*.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is a shell?}{23}{section*.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.5}Linux distributions}{24}{subsection.1.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{24}{section*.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is upstream and downstream?}{25}{section*.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.6}Practice}{26}{subsection.1.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{26}{section*.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Linux Basics}{29}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Linux directory structure}{29}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Filesystem Hierarchy Standard (FHS)}{30}{subsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Important directories in FHS}{31}{subsection.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}General Linux Shortcuts}{34}{subsection.2.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{34}{section*.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.4}Practice}{35}{subsection.2.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{35}{section*.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Linux commands}{38}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Basic commands}{39}{subsection.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is command prompt?}{39}{section*.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Command syntax}{40}{section*.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Now let's get started with some actual commands.}{41}{section*.34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Advance commands}{49}{subsection.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Practice}{65}{subsection.2.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{65}{section*.44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Editors in Linux}{71}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Gedit \& vi/vim editor}{71}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Editors in Linux}{72}{subsection.3.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Vi/vim in detail}{73}{subsection.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is vi editor?}{73}{section*.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is vim editor?}{73}{section*.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{How to use vi or vim editor?}{73}{section*.49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Moving around file using vi/vim}{74}{subsection.3.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.4}Searching for text using vi/vim}{75}{subsection.3.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.5}Saving and/or quitting the file using vi/vim}{76}{subsection.3.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.6}More functions in vi/vim}{77}{subsection.3.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.7}Practice}{78}{subsection.3.1.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{78}{section*.51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}User \& Group Administration}{81}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}User \& group basics}{81}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}What is a user?}{82}{subsection.4.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}What is a group?}{83}{subsection.4.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Types of group}{84}{section*.55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}Files containing user \& group details}{85}{subsection.4.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.4}Practice}{92}{subsection.4.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{92}{section*.64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}User \& group commands}{94}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}User commands}{95}{subsection.4.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{How to create a new user?}{95}{section*.66}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{How to assign or change user’s password?}{98}{section*.67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{How to change user’s password attributes?}{99}{section*.68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Switch between users}{100}{section*.71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Running command as root with sudo}{100}{section*.72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{How to modify an existing user?}{101}{section*.73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{How to delete a user?}{104}{section*.74}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Content of /etc/skel directory}{105}{subsection.4.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}Group commands}{106}{subsection.4.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.4}Practice}{107}{subsection.4.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{107}{section*.75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Permissions in Linux}{111}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}File/Directory permissions}{111}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Introduction to permissions}{112}{subsection.5.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.2}Type of files}{113}{subsection.5.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.3}Type of users}{114}{subsection.5.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.4}Types of permissions}{115}{subsection.5.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Read means:}{116}{section*.83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Write means:}{116}{section*.85}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Execute means:}{116}{section*.87}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.5}Permission commands}{117}{subsection.5.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Octal representation}{119}{section*.91}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Symbolic representation}{122}{section*.97}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Command to change user and group ownership}{124}{section*.99}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Command to change group ownership}{125}{section*.100}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.6}Umask}{126}{subsection.5.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is a umask?}{126}{section*.101}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Changing the umask value}{127}{section*.102}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.7}Practice}{128}{subsection.5.1.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{128}{section*.103}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Advance Permissions}{131}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Sudo user}{131}{section.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.1}What is a sudo user?}{132}{subsection.6.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.2}Creating sudo users}{132}{subsection.6.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Creating sudo user with all command access}{133}{section*.105}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Granting specific command's sudo access to user}{134}{section*.106}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Using aliases in the sudoers file}{134}{section*.107}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{sudo command}{134}{section*.108}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.3}Practice}{135}{subsection.6.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{135}{section*.109}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Special permissions}{136}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}SUID}{137}{subsection.6.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is SUID?}{137}{section*.111}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Real world example for SUID}{138}{section*.114}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{How to apply SUID permission?}{139}{section*.115}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{How to remove SUID permission?}{139}{section*.116}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}SGID}{141}{subsection.6.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is SGID?}{141}{section*.117}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{How to apply SGID permission?}{142}{section*.120}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{How to remove SGID permission?}{143}{section*.122}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.3}Sticky bit}{144}{subsection.6.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{How to apply sticky bit permission?}{145}{section*.125}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{How to remove sticky bit permission?}{146}{section*.126}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.4}Practice}{147}{subsection.6.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{147}{section*.127}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Access Control List(ACL)}{150}{section.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}What is ACL?}{151}{subsection.6.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.2}ACL commands}{152}{subsection.6.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.3}Practice}{156}{subsection.6.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{156}{section*.132}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Processing Commands}{159}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Text processing}{159}{section.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.1}Commands}{160}{subsection.7.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.2}Practice}{172}{subsection.7.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{172}{section*.135}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}I/O Redirection}{175}{section.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.1}Standard input and standard output device}{176}{subsection.7.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.2}Output redirection ( > )}{177}{subsection.7.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.3}Output append operator ( \textbf {{$\textgreater $}}\textbf {{$\textgreater $}} )}{177}{subsection.7.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.4}Input Redirection ( < )}{179}{subsection.7.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.5}Error redirection ( 2> )}{179}{subsection.7.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.6}Error append redirection ( 2\textbf {{$\textgreater $}}\textbf {{$\textgreater $}} )}{180}{subsection.7.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.7}Output \& error redirection ( \&\textbf {{$\textgreater $}} )}{181}{subsection.7.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.8}Output \& error append redirection (\&\textbf {{$\textgreater $}}\textbf {{$\textgreater $}} )}{182}{subsection.7.2.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.9}Redirection Summary}{183}{subsection.7.2.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.10}The pipe operator}{184}{subsection.7.2.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Pipelines, redirection, and tee}{184}{section*.139}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.11}Practice}{185}{subsection.7.2.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{185}{section*.140}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Archives \& Compression}{187}{section.7.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.1}Commands}{188}{subsection.7.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.2}Practice}{194}{subsection.7.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{194}{section*.142}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Partition}{197}{chapter.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Introduction to partition}{197}{section.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.1}What is \textbf {H}ard \textbf {D}isk \textbf {D}rive (HDD) \& partition?}{198}{subsection.8.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.2}HDD devices naming in Linux}{199}{subsection.8.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Disk drives naming}{199}{section*.146}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Partition Names}{200}{section*.148}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.3}Commands to check HDD}{201}{subsection.8.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.4}Practice}{203}{subsection.8.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{203}{section*.152}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Partition types}{205}{section.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.1}Partition table in MBR}{206}{subsection.8.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is an MBR?}{206}{section*.154}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.2}Primary partitions}{207}{subsection.8.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Command to create primary partition}{208}{section*.157}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.3}Extended partition}{209}{subsection.8.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{fdisk command option to create extended partition}{210}{section*.160}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.4}Logical partitions}{211}{subsection.8.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{fdisk command option to create logical partition}{212}{section*.163}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{fdisk command option to delete any partition}{213}{section*.165}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.5}Standard formatting filesystems}{214}{subsection.8.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Filesystem types}{215}{section*.168}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Command to apply filesystem on a partition}{217}{section*.169}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Filesystem UUID}{217}{section*.170}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.6}Mounting Partitions}{218}{subsection.8.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Command to mount a partition}{219}{section*.172}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.7}Permanent mounting:/etc/fstab}{220}{subsection.8.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Understanding 6 important entries of /etc/fstab}{221}{section*.174}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Continue..}{222}{section*.175}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.8}Unmounting filesystem}{223}{subsection.8.2.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.9}Swap partition}{224}{subsection.8.2.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Recommended swap partition size}{224}{section*.177}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{fdisk command option to create a swap partition}{225}{section*.178}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.10}Setting up swap space}{226}{subsection.8.2.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.11}Practice}{229}{subsection.8.2.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{229}{section*.180}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Logical Volume Management}{233}{chapter.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Introduction to LVM}{233}{section.9.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.1}What is LVM?}{234}{subsection.9.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Problem with normal partition:}{234}{section*.182}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{LVM is used for the following purposes:}{234}{section*.183}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.2}LVM organisation}{235}{subsection.9.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Physical Volumes (PVs)}{236}{section*.185}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Volume Goups (VGs)}{236}{section*.186}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Logical Volumes (LVs)}{236}{section*.187}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Device Mapper}{236}{section*.188}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.3}Volumes practical}{237}{subsection.9.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.4}Physical extends}{246}{subsection.9.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.5}Practice}{248}{subsection.9.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{248}{section*.192}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}Links in Linux}{251}{chapter.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.1}Inodes \& Links}{251}{section.10.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.1}What are inodes?}{252}{subsection.10.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.2}Inode number and filesystem}{253}{subsection.10.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.3}Links and it's types}{254}{subsection.10.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is a link?}{254}{section*.196}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.4}Difference between links}{256}{subsection.10.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.5}Practice}{257}{subsection.10.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{257}{section*.198}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {11}Package Management}{259}{chapter.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.1}RPM in detail}{259}{section.11.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.1.1}What is a package?}{260}{subsection.11.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.1.2}What is an RPM?}{260}{subsection.11.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.1.3}RPM commands}{261}{subsection.11.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.1.4}Drawback of RPM}{265}{subsection.11.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.1.5}Practice}{266}{subsection.11.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{266}{section*.201}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.2}YUM \& dnf}{268}{section.11.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.2.1}What is YUM \& dnf?}{269}{subsection.11.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is YUM?}{269}{section*.203}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is DNF?}{269}{section*.204}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Advantages of YUM over RPM}{269}{section*.205}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.2.2}Configuration of YUM server}{270}{subsection.11.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.2.3}Configuration of YUM client}{273}{subsection.11.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.2.4}Subscribing RHEL8 server}{274}{subsection.11.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.2.5}YUM commands}{277}{subsection.11.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.2.6}Dnf commands}{281}{subsection.11.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.2.7}Practice}{285}{subsection.11.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{285}{section*.213}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {12}Process, CPU \& Memory}{287}{chapter.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.1}Process management}{287}{section.12.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.1.1}What is a process?}{288}{subsection.12.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.1.2}Types of process}{289}{subsection.12.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.1.3}Linux process states}{294}{subsection.12.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.1.4}How to check Linux process?}{296}{subsection.12.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.1.5}Killing process}{303}{subsection.12.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.1.6}Process priority}{308}{subsection.12.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{How to start a process with a higher or lower priority than default priority?}{309}{section*.235}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Running a command through the ‘nice’ command}{310}{section*.238}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{How to change the priority of a running process?}{311}{section*.240}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.1.7}Practice}{312}{subsection.12.1.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{312}{section*.242}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.2}CPU management}{315}{section.12.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.2.1}What is CPU?}{316}{subsection.12.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.2.2}CPU core \& CPU threads}{317}{subsection.12.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is a CPU cores?}{317}{section*.245}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is a CPU thread?}{317}{section*.246}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.2.3}Types of CPU}{318}{subsection.12.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.2.4}Undertanding CPU calculation}{321}{subsection.12.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.2.5}Commands for CPU}{323}{subsection.12.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.2.6}Understanding CPU consumption}{327}{subsection.12.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.2.7}Practice}{328}{subsection.12.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{328}{section*.260}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.3}Memory management}{330}{section.12.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.3.1}What is RAM?}{331}{subsection.12.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.3.2}What is cache?}{332}{subsection.12.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.3.3}What is buffer?}{333}{subsection.12.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.3.4}Commands for memory}{334}{subsection.12.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{UnitsPolicy}{335}{section*.268}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.3.5}Practice}{338}{subsection.12.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{338}{section*.272}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {13}Scheduling Jobs}{341}{chapter.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {13.1}Crontab in detail}{341}{section.13.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {13.1.1}Introduction to crontab}{342}{subsection.13.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {13.1.2}Command to set crontab}{343}{subsection.13.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {13.1.3}Examples of cronjob}{344}{subsection.13.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {13.1.4}Practice}{346}{subsection.13.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{346}{section*.275}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {14}Networking}{349}{chapter.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14.1}Networking essentials}{349}{section.14.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.1.1}Networking \& it's types}{350}{subsection.14.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.1.2}Network connecting device}{353}{subsection.14.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.1.3}Network interface names}{358}{subsection.14.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.1.4}Practice}{359}{subsection.14.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{359}{section*.287}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14.2}Introduction to IP}{361}{section.14.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.2.1}What is Internet Protocol (IP)?}{362}{subsection.14.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.2.2}What is an IP address?}{365}{subsection.14.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.2.3}What is DNS server? }{366}{subsection.14.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.2.4}What is DHCP server? }{367}{subsection.14.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.2.5}Types of IP address}{368}{subsection.14.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{IPV4}{368}{section*.295}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{IPV6}{369}{section*.296}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.2.6}ISO-OSI model}{370}{subsection.14.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.2.7}Practice}{371}{subsection.14.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{371}{section*.298}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14.3}IPv4 in detail}{373}{section.14.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.3.1}IPv4 address structure}{374}{subsection.14.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Language of Computer}{374}{section*.301}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{In computer' language, IP address is made of 32 bits as shown: }{374}{section*.302}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Example}{374}{section*.304}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Calculating numeric form of IP:}{375}{section*.306}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Examples of calculating number of IP:}{376}{section*.309}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.3.2}Network bit \& Host bit}{377}{subsection.14.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.3.3}Netmask}{378}{subsection.14.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.3.4}What is classful addressing?}{380}{subsection.14.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Example of IP address and their class:}{381}{section*.317}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.3.5}Loopback \& 0.0.0.0 address}{382}{subsection.14.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is loopback address?}{382}{section*.319}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What is 0.0.0.0 address?}{382}{section*.322}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.3.6}Network address}{383}{subsection.14.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.3.7}Broadcast address}{384}{subsection.14.3.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.3.8}Calculating number of host IP}{385}{subsection.14.3.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.3.9}Practice}{389}{subsection.14.3.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{389}{section*.327}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14.4}Subnetting}{393}{section.14.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.4.1}Drawback of classful addressing}{394}{subsection.14.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.4.2}Subnetting/CIDR}{395}{subsection.14.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.4.3}Working of CIDR}{396}{subsection.14.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.4.4}Practice}{402}{subsection.14.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{402}{section*.335}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14.5}Networking in action}{403}{section.14.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.5.1}Assigning hostname}{404}{subsection.14.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.5.2}/etc/hosts file}{405}{subsection.14.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.5.3}Setting up IP address}{407}{subsection.14.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{nmcli command}{407}{section*.341}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Editing interface configuration files}{411}{section*.345}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.5.4}Network monitoring commands}{414}{subsection.14.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.5.5}Practice}{417}{subsection.14.5.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{417}{section*.351}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {15}Logs in Linux}{421}{chapter.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {15.1}Logging in Linux}{421}{section.15.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {15.1.1}Introduction to logs}{422}{subsection.15.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{What are logs in Linux?}{422}{section*.353}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {15.1.2}Syslog \& rsyslog}{423}{subsection.15.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Syslog daemon}{423}{section*.355}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Rsyslog daemon}{423}{section*.356}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {15.1.3}Rules in /etc/rsyslog.conf}{424}{subsection.15.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {15.1.4}Important log files}{427}{subsection.15.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {15.1.5}Logger command}{428}{subsection.15.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {15.1.6}Viewing logs}{429}{subsection.15.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {15.1.7}Practice}{430}{subsection.15.1.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{430}{section*.361}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {16}Boot process}{433}{chapter.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {16.1}Booting in Linux}{433}{section.16.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {16.1.1}What is boot process?}{434}{subsection.16.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {16.1.2}BIOS \& POST}{435}{subsection.16.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {16.1.3}MBR}{437}{subsection.16.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {16.1.4}Bootloader}{438}{subsection.16.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {16.1.5}Run levels/Targets}{441}{subsection.16.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {16.1.6}Systemd}{442}{subsection.16.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Managing services \& targets with systemd}{443}{section*.371}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {16.1.7}Practice}{446}{subsection.16.1.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{446}{section*.373}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {17}Linux OS Installation}{451}{chapter.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {17.1}Installation in detail}{451}{section.17.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {17.1.1}Minimum system requirements for RHEL}{452}{subsection.17.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {17.1.2}Partition requirement}{453}{subsection.17.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {17.1.3}Creating a virtual machine}{454}{subsection.17.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {17.1.4}RHEL OS using Anaconda}{459}{subsection.17.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Follow along to install RHEL8 OS:}{459}{section*.387}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {18}Remote Access in Linux}{465}{chapter.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {18.1}SSH, scp \& rsync}{465}{section.18.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {18.1.1}What is SSH?}{466}{subsection.18.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {18.1.2}What is a server \& client?}{467}{subsection.18.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Server}{467}{section*.405}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Client}{467}{section*.406}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {18.1.3}Setting up SSH server \& client on RHEL}{468}{subsection.18.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{SSH server settings}{468}{section*.408}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{SSH client settings}{468}{section*.409}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {18.1.4}Password based SSH connection}{469}{subsection.18.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {18.1.5}Passwordless SSH connection}{472}{subsection.18.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Steps to configure passwordless SSH}{473}{section*.413}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{On SSH server}{475}{section*.419}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Important things to note about SSH server \& client}{476}{section*.420}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {18.1.6}What is scp command?}{477}{subsection.18.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {18.1.7}What is rsync command?}{479}{subsection.18.1.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {18.1.8}Practice}{481}{subsection.18.1.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{481}{section*.421}%
+\contentsfinish 

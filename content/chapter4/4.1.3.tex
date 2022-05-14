@@ -1,0 +1,157 @@
+\setlength{\columnsep}{3pt}
+\begin{flushleft}
+
+	Below diagram shows important files and their short description relating to user \& group details:
+	\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.4]{content/chapter4/images/users6.png}
+	\caption{Important user \& group files}
+	\label{fig:prime_secondary_group12}
+\end{figure}
+
+Let's see each of these file in detail.
+
+\newpage
+
+\textbf{Structure of /etc/passwd file}
+\begin{itemize}
+	\item Fields in this file are separated by a ":" (colon).
+	\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.2]{content/chapter4/images/53.png}
+	\caption{Sample /etc/passwd entry}
+	\label{fig:user_group1}
+	\end{figure}	
+	\newline
+Explaination:
+\begin{enumerate}
+	\item \textbf{Username} - Case-sensitive login name of user.
+	\item \textbf{Password placeholder} - "x" acts as placeholder. Encrypted password are now stored in \textbf{/etc/shadow} file.
+	\item \textbf{User ID}: UID ranges:
+		\begin{itemize}
+		\item UID 0 is assigned to root user.
+		\item UID 1-200 is a range of "system users" assigned to system processes by OS.
+		\item UID 201-999 is a range of "system users" used by system processes.
+		\item UID 1000+ is the range available for assignment to regular users.
+	\end{itemize}
+	\item \textbf{Group ID}
+	\item \textbf{Comment} - More description about user.
+	\item \textbf{Home directory} - Location of user's personal data.
+	\item \textbf{Shell} - User login shell, default is \textbf{/bin/bash}.
+\end{enumerate}
+
+\end{itemize}	
+\newpage
+
+
+
+\textbf{Structure of the /etc/shadow file}
+\begin{itemize}
+	\item Fields in this file are separated by a ":" (colon).
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=.4]{content/chapter4/images/pass4.png}
+		\caption{Sample /etc/shadow entry}
+		\label{fig:user_group}
+	\end{figure}	
+	\newline
+	Explaination:
+	\begin{enumerate}
+		\item \textbf{Username} - A direct match to the username in the \textbf{/etc/passwd} file.
+		\item \textbf{Encrypted Password} - Store password in encrypted format.
+		\bigskip
+		\begin{tcolorbox}[breakable,notitle,boxrule=-0pt,colback=yellow,colframe=yellow]
+			\color{black}
+			\textbf{Note:} 
+			\begin{itemize}
+				\item \textbf{“!”} in this entry means the account is disabled or locked. 
+				\item \textbf{“!!”} mask means password is not assigned.
+			\end{itemize}
+		\end{tcolorbox}	
+		Let's understand the encrypted password in detail.
+		\newpage	
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[scale=.5]{content/chapter4/images/pass.png}
+		\end{figure}
+		There are three pieces of information stored in password:
+		\begin{itemize}
+			\item \textbf{Hashing algorithm}: The number 1 indicates an MD5 hash. The number 6 appears when a SHA-512 hash is used.
+			\item \textbf{Salt value}: The random salt value used to encrypt the hash. Prevents two users with the same password from having identical entries in the /etc/shadow file.
+			\item \textbf{Encrypted hash}
+		\end{itemize}
+		\bigskip
+		\bigskip
+		\item \textbf{Password age}:
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[scale=.2]{content/chapter4/images/age.png}
+		\end{figure}
+		\begin{enumerate}\addtocounter{enumi}{3}
+			\item \textbf{Last password change} - The number of days (since January 1, 1970) since the password was last changed.
+			\item \textbf{Minimum days before password change} - The number of days before password may be changed (0 indicates it may be changed at any time).
+			\item \textbf{Maximum days before password change} - The number of days after which password must be changed (99999 indicates user can keep his or her password unchanged for many, many years).
+			\item \textbf{Password change warning} - The number of days to warn user of an expiring password (7 for a full week).
+			\item \textbf{Account active days} - The number of days an account remains active after a password has expired.
+			\item \textbf{No. of days account is expired} - The account expiration date, represented as the number of days since 1970.01.01.
+			\item This blank field is reserved for future use.
+		\end{enumerate}
+	\end{enumerate}
+\end{itemize}	
+	
+\newpage
+
+\textbf{Structure of the /etc/group file}
+\begin{itemize}
+	\item Fields in this file are separated by a ":" (colon).
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=.2]{content/chapter4/images/54.png}
+		\caption{Sample /etc/group entry}
+		\label{fig:user_group}
+	\end{figure}	
+	\newline
+	Explaination
+	\begin{itemize}
+		\item Column 1: \textbf{Groupname} - Name of group. It is case-sensitive. 
+		\item Column 2: \textbf{Group password placeholder} - "x" acts as placeholder. Encrypted password are stored in \textbf{/etc/gshadow} file.
+		\item Column 3: \textbf{Group ID} 
+		\item Column 4: \textbf{Group members} - Usernames of users belonging to this group.
+	\end{itemize}	
+\end{itemize}	
+
+\newpage
+\textbf{Structure of the /etc/gshadow file}
+\begin{itemize}
+	\item Fields in this file are separated by a ":" (colon).
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=.2]{content/chapter4/images/56.png}
+		\caption{Sample /etc/gshadow entry}
+		\label{fig:user_group}
+	\end{figure}	
+	\newline
+	Explaination:
+	\begin{itemize}
+		\item Column 1: \textbf{Groupname} - Name of group. It is case-sensitive. 
+		\item Column 2: \textbf{Encrypted Password} - Store password in encrypted format.
+		\bigskip
+		\begin{tcolorbox}[breakable,notitle,boxrule=-0pt,colback=yellow,colframe=yellow]
+			\color{black}
+			\textbf{Note:} 
+			\begin{itemize}
+				\item {“!”} in this entry means the account is disabled or locked. 
+				\item {“!!”} mask means password is not assigned.
+			\end{itemize}
+		\end{tcolorbox}
+
+		\item Column 3: \textbf{Administrators} - Users who can change the password.
+		\item Column 4: \textbf{Group members} - Usernames of user belonging to this group.
+	\end{itemize}	
+\end{itemize}	
+
+	
+\end{flushleft}
+
+\newpage
+

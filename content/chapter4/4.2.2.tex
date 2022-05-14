@@ -1,0 +1,40 @@
+\setlength{\columnsep}{3pt}
+\begin{flushleft}
+
+\textbf{/etc/skel} directory:
+\begin{itemize}
+	\item Content of this directory is \textbf{automatically copied over to a new user's home directory when it is created}.
+	\item Users gets same intial settings and environment using content of this directory.
+	\item Below are the files under \textbf{/etc/skel} directory that are copied:
+	\begin{itemize}
+		\item \textbf{/etc/skel/.bash\_profile} copied as \textbf{{$\sim$}/.bash\_profile}: 
+		\begin{itemize}
+			\item Configures the bash startup environment.
+			\item You can the add environment variables to this file.
+		\end{itemize}
+		\bigskip
+		\item \textbf{/etc/skel/.bashrc} copied as \textbf{{$\sim$}/.bashrc}: 
+		\begin{itemize}
+			\item In this file you can include commands you want to run when you start the bash shell.
+			\item You can also add aliases such as: \textbf{rm='rm -i'}
+		\end{itemize}
+		\bigskip
+		\item \textbf{/etc/skel/.bash\_logout} copied as \textbf{{$\sim$}/.bash\_logout}: 
+		\newline
+		This file is executed when you exit a bash shell.
+	\end{itemize}	
+	\bigskip
+	
+\end{itemize}
+
+Another file containing user's login setting is \textbf{/etc/profile}. Note that this file is not copied in the user's home directory.
+
+
+
+
+
+	
+\end{flushleft}
+
+\newpage
+

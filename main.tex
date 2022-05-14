@@ -1,0 +1,856 @@
+\documentclass[14pt,fleqn]{extbook} % Default font size and left-justified equations
+\usepackage{graphicx}
+\usepackage{setspace}
+\input{structure.tex} % Insert the commands.tex file which contains the majority of the structure behind the template
+\usepackage{color}
+\definecolor{light}{rgb}{0.5, 0.5, 0.5}
+\def\light#1{{\color{light}#1}}
+\usepackage{multicol}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{tabulary}
+\usepackage{adjustbox}
+\usepackage{subfig}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{amssymb}
+\usepackage{afterpage}
+\tcbuselibrary{breakable}
+\usepackage[printwatermark]{xwatermark}
+%\usepackage[dvipsnames]{xcolor}
+
+%\usepackage[framemethod=tikz]{mdframed}
+
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
+
+\fancyfoot[R]
+{
+	\includegraphics[scale=0.6]{content/logo.png}%
+}
+
+%\fancyfoot[L]{Left footer}\fancyfoot[C]{Centre footer}\fancyfoot[R]{Right footer}
+
+
+\thispagestyle{plain}
+%\hypersetup{pdftitle={Title},pdfauthor={Author}} % Uncomment and fill out to include PDF metadata for the author and title of the book
+
+%----------------------------------------------------------------------------------------
+\setstretch{1.25}
+%\definecolor[new][h=9A957A, a=1, t=.3]
+\definecolor{mycolor}{RGB}{255, 174, 0}
+
+%\newwatermark*[allpages,color=new!50,angle=45,scale=3,xpos=-20,ypos=0]{DRAFT}
+
+%\usepackage{draftwatermark}
+%\SetWatermarkLightness{ 0.9 }
+%\SetWatermarkText{Lavatech\newline Technology}
+%\SetWatermarkScale{0.3}
+
+%%%%%%%%%%%%%%%%%%%%%%%   This block adds watermark  %%%%%%%%%%%%%%%%%
+\newsavebox\mybox
+\savebox\mybox{\tikz[color=mycolor,opacity=0.2]\node{lavatechtechnology.com};}
+\newwatermark*[
+allpages,
+angle=45,
+scale=2.5,
+xpos=-20,
+ypos=15
+]{\usebox\mybox}
+%%%%%%%%%%%%%%%%%%%%%%%   This block adds watermark  %%%%%%%%%%%%%%%%%
+
+
+%\newsavebox\mybox
+%\savebox\mybox{\tikz[color=red,opacity=0.3]\node{Lavatech};}
+%\newwatermark*[
+%allpages,
+%angle=45,
+%scale=6,
+%xpos=-20,
+%ypos=15
+%]{\usebox\mybox}
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begingroup
+\thispagestyle{empty} % Suppress headers and footers on the title page
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth, height=\paperheight]{cover_new.pdf}};
+\end{tikzpicture}
+\vfill
+\endgroup
+
+%----------------------------------------------------------------------------------------
+%	COPYRIGHT PAGE
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+~\vfill
+\thispagestyle{empty}
+
+\noindent Copyright \copyright\ 2022 Lavatech Technology\\ % Copyright notice
+
+The contents of this course and all its modules and related materials, including handouts are
+Copyright ©
+
+No part of this publication may be stored in a retrieval system, transmitted or reproduced in any way, including, but not limited to, photocopy, photograph, magnetic, electronic or other record, without the prior written permission of Lavatech Technology.
+
+If you believe Lavatech Technology training materials are being used, copied, or otherwise improperly distributed please e-mail: 
+\newline
+\textbf{info@lavatechtechnology.com}
+
+\noindent \textsc{Published by Lavatech Technology}\\ % Publisher
+
+\noindent \textit{lavatechtechnology.com}\\ % URL
+
+%\noindent Licensed under the Creative Commons Attribution-NonCommercial 3.0 Unported License (the ``License''). You may not use this file except in compliance with the License. You may obtain a copy of the License at \url{http://creativecommons.org/licenses/by-nc/3.0}. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \textsc{``as is'' basis, without warranties or conditions of any kind}, either express or implied. See the License for the specific language governing permissions and limitations under the License.\\  License information, replace this with your own license (if any)
+%
+\noindent \textit{January 2022} % Printing/edition date
+
+\afterpage{\blankpage}
+\afterpage{\blankpage}
+
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+
+\usechapterimagetrue % If you don't want to include a chapter image, use this to toggle images off - it can be enabled later with \usechapterimagetrue
+
+\chapterimage{image1.png} % Table of contents heading image
+
+\pagestyle{empty} % Disable headers and footers for the following pages
+
+
+\tableofcontents
+
+
+\cleardoublepage % Forces the first chapter to start on an odd page so it's on the right side of the book
+
+\pagestyle{fancy} % Enable headers and footers again
+
+%----------------------------------------------------------------------------------------
+%	PART One
+%----------------------------------------------------------------------------------------
+
+%\part{System Admin Level I}
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 1
+%----------------------------------------------------------------------------------------
+\input{content/chapter1/1.0.tex}
+\chapterimage{index2.png} % Chapter heading image
+\chapter{Introduction}
+%-----------------------
+\section{Introduction to Operating System}\index{Introduction to Operating System}
+\input{content/chapter1/1.1.tex}
+\subsection{What is an Operating System (OS)?}\index{Introduction to Operating System!What is an Operating System (OS)?}
+\input{content/chapter1/1.1.1.tex}
+\subsection{Architecture of OS}\index{Introduction to Operating System!Architecture of OS}
+\input{content/chapter1/1.1.2.tex}
+\subsection{Types of OS}\index{Introduction to Operating System!Types of OS}
+\input{content/chapter1/1.1.3.tex}
+\subsection{Practice}\index{Introduction to Operating System!Practice}
+\input{content/chapter1/1.1.4.tex}
+
+\section{Introduction to Linux}\index{Introduction to Linux}
+\input{content/chapter1/1.2.tex}
+\subsection{What is Open Source Software (OSS)?}\index{Introduction to Linux!What is open source software(OSS)?}
+\input{content/chapter1/1.2.1.tex}
+\subsection{What is Linux OS?}\index{Introduction to Linux!Linux V/S Windows}
+\input{content/chapter1/1.2.2.tex}
+\subsection{Linux OS v/s Windows OS}\index{Introduction to Linux!Linux V/S Windows}
+\input{content/chapter1/1.2.3.tex}
+\subsection{Understanding console, terminal, command line and shell}\index{Introduction to Linux!Understanding console, terminal, command line and shell}
+\input{content/chapter1/1.2.4.tex}
+%\subsection{Linux in server industry}\index{Introduction to Linux!Linux in server industry}
+%\input{content/chapter1/1.2.4.tex}
+\subsection{Linux distributions}\index{Introduction to Linux!Linux distributions}
+\input{content/chapter1/1.2.5.tex}
+\subsection{Practice}\index{Introduction to Linux!Practice}
+\input{content/chapter1/1.2.6.tex}
+
+%--------------	--------
+
+
+%--------------------------------------------------------------------------
+%	CHAPTER 2
+%-------------------------------------------------------------------------
+
+\chapterimage{index3.png} % Table of contents heading image
+\chapter{Linux Basics}
+%-----------------------
+\section{Linux directory structure}\index{Linux directory structure}
+\input{content/chapter2/2.1.tex}
+\subsection{Filesystem Hierarchy Standard (FHS)}\index{Linux directory structure!Filesystem Hierarchy Standard (FHS)}
+\input{content/chapter2/2.1.1.tex}
+\subsection{Important directories in FHS}\index{Linux directory structure!Important Directory You Should Know About}
+\input{content/chapter2/2.1.2.tex}
+\subsection{General Linux Shortcuts}
+\input{content/chapter2/2.1.4.tex}
+\subsection{Practice}\index{Linux directory structure!Practice}
+\input{content/chapter2/2.1.3.tex}
+\section{Linux commands}\index{Linux commands}
+\input{content/chapter2/2.2.tex}
+\subsection{Basic commands}\index{Linux commands!Basic commands}
+\input{content/chapter2/2.2.1.tex}
+\subsection{Advance commands}\index{Linux commands!Advance commands}
+\input{content/chapter2/2.2.2.tex}
+\subsection{Practice}\index{Linux commands!Practice}
+\input{content/chapter2/2.2.3.tex}
+%-----------------------
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 3
+%----------------------------------------------------------------------------------------
+\chapterimage{index4.png} % Table of contents heading image
+\chapter{Editors in Linux}
+%-----------------------
+\section{Gedit \& vi/vim editor}
+\input{content/chapter3/3.1.tex}
+\subsection{Editors in Linux}
+\input{content/chapter3/3.1.1.tex}
+\subsection{Vi/vim in detail}
+\input{content/chapter3/3.1.0.tex}
+\subsection{Moving around file using vi/vim}
+\input{content/chapter3/3.1.2.tex}
+\subsection{Searching for text using vi/vim}
+\input{content/chapter3/3.1.3.tex}
+\subsection{Saving and/or quitting the file using vi/vim}
+\input{content/chapter3/3.1.4.tex}
+\subsection{More functions in vi/vim}
+\input{content/chapter3/3.1.5.tex}
+\subsection{Practice}
+\input{content/chapter3/3.1.6.tex}
+%-----------------------
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 4
+%----------------------------------------------------------------------------------------
+\chapterimage{index5.png} % Table of contents heading image
+\chapter{User \& Group Administration}
+%-----------------------
+\section{User \& group basics}\index{User \& group basics}
+\input{content/chapter4/4.1.tex}
+\subsection{What is a user?}\index{User \& group basics!What is a user?}
+\input{content/chapter4/4.1.1.tex}
+\subsection{What is a group?}\index{User \& group basics!What is a group?}
+\input{content/chapter4/4.1.2.tex}
+\subsection{Files containing user \& group details}
+\input{content/chapter4/4.1.3.tex}
+\subsection{Practice}\index{User \& group basics!Practice}
+\input{content/chapter4/4.1.4.tex}
+
+\section{User \& group commands}\index{User \& group commands}
+\input{content/chapter4/4.2.tex}
+\subsection{User commands}\index{User \& group commands!User commands}
+\input{content/chapter4/4.2.1.tex}
+\subsection{Content of /etc/skel directory}\index{User \& group commands!Content of /etc/skel directory}
+\input{content/chapter4/4.2.2.tex}
+\subsection{Group commands}\index{User \& group commands!Group commands}
+\input{content/chapter4/4.2.3.tex}
+\subsection{Practice}\index{User \& group commands!Practice}
+\input{content/chapter4/4.2.4.tex}
+%-----------------------
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 5
+%----------------------------------------------------------------------------------------
+\chapterimage{index6.png} % Table of contents heading image
+\chapter{Permissions in Linux}
+%-----------------------
+\section{File/Directory permissions}\index{Permissions}
+\input{content/chapter5/5.1.tex}
+\subsection{Introduction to permissions}\index{Permissions!Introduction to permissions}
+\input{content/chapter5/5.1.1.tex}
+\subsection{Type of files}\index{Permissions!Type of files}
+\input{content/chapter5/5.1.2.tex}
+\subsection{Type of users}\index{Permissions!Type of users}
+\input{content/chapter5/5.1.3.tex}
+\subsection{Types of permissions}\index{Permissions!Type of permissions}
+\input{content/chapter5/5.1.4.tex}
+\subsection{Permission commands}\index{Permissions!Permission commands}
+\input{content/chapter5/5.1.5.tex}
+\subsection{Umask}\index{Permissions!Umask}
+\input{content/chapter5/5.1.6.tex}
+\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter5/5.1.7.tex}
+%-----------------------
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 6
+%----------------------------------------------------------------------------------------
+\chapterimage{index7.png} % Table of contents heading image
+\chapter{Advance Permissions}
+%-----------------------
+\section{Sudo user}\index{Sudo user}
+\input{content/chapter6/6.3.tex}
+\subsection{What is a sudo user?}\index{Sudo user!What is a sudo user?}
+\input{content/chapter6/6.3.1.tex}
+\subsection{Creating sudo users}\index{Sudo user!Creating sudo users}
+\input{content/chapter6/6.3.2.tex}
+\subsection{Practice}\index{Sudo user!Practice}
+\input{content/chapter6/6.3.3.tex}
+
+\section{Special permissions}\index{Special permissions}
+\input{content/chapter6/6.1.tex}
+\subsection{SUID}\index{Special permissions!SUID}
+\input{content/chapter6/6.1.1.tex}
+\subsection{SGID}\index{Special permissions!SGID}
+\input{content/chapter6/6.1.2.tex}
+\subsection{Sticky bit}\index{Special permissions!Sticky bit}
+\input{content/chapter6/6.1.3.tex}
+\subsection{Practice}\index{Special permissions!Practice}
+\input{content/chapter6/6.1.4.tex}
+
+\section{Access Control List(ACL)}\index{Access control list(ACL)}
+\input{content/chapter6/6.2.tex}
+\subsection{What is ACL?}\index{Access control list(ACL)!What is ACL?}
+\input{content/chapter6/6.2.1.tex}
+\subsection{ACL commands}\index{Access control list(ACL)!ACL commands}
+\input{content/chapter6/6.2.2.tex}
+\subsection{Practice}\index{Access control list(ACL)!Practice}
+\input{content/chapter6/6.2.3.tex}
+
+%-----------------------
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 7
+%----------------------------------------------------------------------------------------
+\chapterimage{index8.png} % Table of contents heading image
+\chapter{Processing Commands}
+%%%%%-----------------------
+
+\section{Text processing}\index{Text processing}
+\input{content/chapter7/7.2.tex}
+\subsection{Commands}\index{Text processing!Commands}
+\input{content/chapter7/7.2.1.tex}
+\subsection{Practice}\index{Text processing!Practice}
+\input{content/chapter7/7.2.2.tex}
+
+\section{I/O Redirection}\index{I/ORedirection}
+\input{content/chapter7/7.1.tex}
+\subsection{Standard input and standard output device}\index{I/ORedirection!What are standard input and standard output?}
+\input{content/chapter7/7.1.1.tex}
+\subsection{Output redirection ( > )}
+\input{content/chapter7/7.1.2.tex}
+\subsection{Output append operator ( \textbf{{$\textgreater$}}\textbf{{$\textgreater$}} )}
+\input{content/chapter7/7.1.3.tex}
+\subsection{Input Redirection ( < )}
+\input{content/chapter7/7.1.4.tex}
+\subsection{Error redirection ( 2> )}
+\input{content/chapter7/7.1.5.tex}
+\subsection{Error append redirection ( 2\textbf{{$\textgreater$}}\textbf{{$\textgreater$}} )}
+\input{content/chapter7/7.1.6.tex}
+\subsection{Output \& error redirection ( \&\textbf{{$\textgreater$}} )}
+\input{content/chapter7/7.1.10.tex}
+\subsection{Output \& error append redirection (\&\textbf{{$\textgreater$}}\textbf{{$\textgreater$}} )}
+\input{content/chapter7/7.1.11.tex}
+\subsection{Redirection Summary}
+\input{content/chapter7/7.1.7.tex}
+\subsection{The pipe operator}
+\input{content/chapter7/7.1.8.tex}
+\subsection{Practice}
+\input{content/chapter7/7.1.9.tex}
+\section{Archives \& Compression}
+\input{content/chapter7/7.3.tex}
+\subsection{Commands}
+\input{content/chapter7/7.3.1.tex}
+\subsection{Practice}
+\input{content/chapter7/7.3.2.tex}
+%%%%
+%%%%%-----------------------
+%%%%
+%%%%
+%%%%%----------------------------------------------------------------------------------------
+%%%%%	CHAPTER 8
+%%%%%----------------------------------------------------------------------------------------
+\chapterimage{index9.png} % Table of contents heading image
+\chapter{Partition}
+%%%%%-----------------------
+\section{Introduction to partition}
+\input{content/chapter8/8.1.tex}
+\subsection{What is \textbf{H}ard \textbf{D}isk \textbf{D}rive (HDD) \& partition?}
+\input{content/chapter8/8.1.1.tex}
+\subsection{HDD devices naming in Linux}
+\input{content/chapter8/8.1.2.tex}
+\subsection{Commands to check HDD}
+\input{content/chapter8/8.1.3.tex}
+\subsection{Practice}
+\input{content/chapter8/8.1.4.tex}
+
+\section{Partition types}\index{Understanding vi/vim editor}
+\input{content/chapter8/8.2.tex}
+\subsection{Partition table in MBR}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter8/8.2.1.tex}
+\subsection{Primary partitions}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter8/8.2.2.tex}
+\subsection{Extended partition}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter8/8.2.3.tex}
+\subsection{Logical partitions}
+\input{content/chapter8/8.2.4.tex}
+\subsection{Standard formatting filesystems}
+\input{content/chapter8/8.3.2.tex}
+\subsection{Mounting Partitions}
+\input{content/chapter8/8.3.3.tex}
+\subsection{Permanent mounting:/etc/fstab}
+\input{content/chapter8/8.3.4.tex}
+\subsection{Unmounting filesystem}
+\input{content/chapter8/8.3.6.tex}
+\subsection{Swap partition}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter8/8.2.5.tex}
+\subsection{Setting up swap space}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter8/8.3.5.tex}
+\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter8/8.2.6.tex}
+%%%%%
+%%%%%
+
+
+%%%%%----------------------------------------------------------------------------------------
+%%%%%	CHAPTER 9
+%%%%%----------------------------------------------------------------------------------------
+\chapterimage{index10.png} % Table of contents heading image
+\chapter{Logical Volume Management}
+%%%%%-----------------------
+\section{Introduction to LVM}\index{Understanding vi/vim editor}
+\input{content/chapter9/9.1.tex}
+\subsection{What is LVM?}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter9/9.1.1.tex}
+\subsection{LVM organisation}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter9/9.2.1.tex}
+\subsection{Volumes practical}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter9/9.2.2.tex}
+\subsection{Physical extends}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter9/9.2.3.tex}
+\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter9/9.2.4.tex}
+%%%%%-----------------------
+%%%%
+%%%%
+%----------------------------------------------------------------------------------------
+%	CHAPTER 10
+%----------------------------------------------------------------------------------------
+\chapterimage{index11.png} % Table of contents heading image
+\chapter{Links in Linux}
+%-----------------------
+\section{Inodes \& Links}\index{Inodes \& Links}
+\input{content/chapter10/10.1.tex}
+\subsection{What are inodes?}\index{Inodes \& Links!What are inodes?}
+\input{content/chapter10/10.1.1.tex}
+\subsection{Inode number and filesystem}\index{Inodes \& Links!Inode number and filesystem}
+\input{content/chapter10/10.1.2.tex}
+\subsection{Links and it's types}\index{Inodes \& Links!Links and it's types}
+\input{content/chapter10/10.1.3.tex}
+\subsection{Difference between links}\index{Inodes \& Links!Difference between links}
+\input{content/chapter10/10.1.4.tex}
+\subsection{Practice}\index{Inodes \& Links!Practice}
+\input{content/chapter10/10.1.5.tex}
+%%%%%-----------------------
+%%%%
+%%%%
+
+
+
+%%%%%----------------------------------------------------------------------------------------
+%%%%%	CHAPTER 11
+%%%%%----------------------------------------------------------------------------------------
+\chapterimage{index12.png} % Table of contents heading image
+\chapter{Package Management}
+%%%%%-----------------------
+\section{RPM in detail}\index{Understanding vi/vim editor}
+\input{content/chapter11/11.1.tex}
+\subsection{What is a package?}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter11/11.1.1.tex}
+\subsection{What is an RPM?}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter11/11.1.2.tex}
+\subsection{RPM commands}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter11/11.1.3.tex}
+\subsection{Drawback of RPM}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter11/11.1.4.tex}
+\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter11/11.1.5.tex}
+\section{YUM \& dnf}\index{Understanding vi/vim editor}
+\input{content/chapter11/11.2.tex}
+\subsection{What is YUM \& dnf?}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter11/11.2.1.tex}
+\subsection{Configuration of YUM server}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter11/11.2.2.tex}
+\subsection{Configuration of YUM client}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter11/11.2.3.tex}
+\subsection{Subscribing RHEL8 server}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter11/11.2.7.tex}
+\subsection{YUM commands}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter11/11.2.4.tex}
+\subsection{Dnf commands}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter11/11.2.6.tex}
+\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter11/11.2.5.tex}
+%%%%%-----------------------
+%%%%
+%%%%%----------------------------------------------------------------------------------------
+%%%%%	CHAPTER 12
+%%%%%----------------------------------------------------------------------------------------
+\chapterimage{index13.png} % Table of contents heading image
+\chapter{Process, CPU \& Memory}
+%%%%%-----------------------
+\section{Process management}
+\input{content/chapter12/12.1.tex}
+\subsection{What is a process?}
+\input{content/chapter12/12.1.1.tex}
+\subsection{Types of process}
+\input{content/chapter12/12.1.2.tex}
+\subsection{Linux process states}
+\input{content/chapter12/12.1.3.tex}
+\subsection{How to check Linux process?}
+\input{content/chapter12/12.1.4.tex}
+\subsection{Killing process}
+\input{content/chapter12/12.1.6.tex}
+\subsection{Process priority}
+\input{content/chapter12/12.1.13.tex}
+\subsection{Practice}
+\input{content/chapter12/12.1.5.tex}
+\section{CPU management}
+\input{content/chapter12/12.3.tex}
+\subsection{What is CPU?}
+\input{content/chapter12/12.1.7.tex}
+\subsection{CPU core \& CPU threads}
+\input{content/chapter12/12.1.7.1.tex}
+\subsection{Types of CPU}
+\input{content/chapter12/12.1.7.2.tex}
+\subsection{Undertanding CPU calculation}
+\input{content/chapter12/12.1.7.3.tex}
+\subsection{Commands for CPU}
+\input{content/chapter12/12.1.7.4.tex}
+\subsection{Understanding CPU consumption}
+\input{content/chapter12/12.1.7.6.tex}
+\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter12/12.1.7.5.tex}
+\section{Memory management}\index{Understanding vi/vim editor}
+\input{content/chapter12/12.2.tex}
+\subsection{What is RAM?}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter12/12.1.11.tex}
+\subsection{What is cache?}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter12/12.1.8.tex}
+\subsection{What is buffer?}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter12/12.1.9.tex}
+\subsection{Commands for memory}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter12/12.1.10.tex}
+\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter12/12.1.12.tex}
+
+%%%%%-----------------------
+%%%%
+%%%%%----------------------------------------------------------------------------------------
+%%%%%	CHAPTER 13
+%%%%%----------------------------------------------------------------------------------------
+\chapterimage{index14.png} % Table of contents heading image
+\chapter{Scheduling Jobs}
+%%%%%-----------------------
+\section{Crontab in detail}\index{Understanding vi/vim editor}
+\input{content/chapter13/13.1.tex}
+\subsection{Introduction to crontab}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter13/13.1.1.tex}
+\subsection{Command to set crontab}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter13/13.1.3.tex}
+\subsection{Examples of cronjob}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter13/13.1.2.tex}
+\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter13/13.1.4.tex}
+%\input{content/chapter13/13.1.4.tex}
+%%%%\subsection{Soft link}\index{Understanding vi/vim editor!About vi/vim editor}
+%%%%\input{content/chapter3/3.1.1.tex}
+%%%%\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+%%%%\input{content/chapter3/3.2.1.tex}
+%%%%%-----------------------
+%%%%
+%%%%%----------------------------------------------------------------------------------------
+%%%%%	CHAPTER 14
+%%%%%----------------------------------------------------------------------------------------
+\chapterimage{index15.png} % Table of contents heading image
+\chapter{Networking}
+%%%%%-----------------------
+\section{Networking essentials}\index{Understanding vi/vim editor}
+\input{content/chapter14/14.1.tex}
+\subsection{Networking \& it's types}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.1.1.tex}
+\subsection{Network connecting device}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.1.3.tex}
+\subsection{Network interface names}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.1.3.3.tex}
+\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter14/14.1.4.tex}
+\section{Introduction to IP}\index{Understanding vi/vim editor}
+\input{content/chapter14/14.2.tex}
+\subsection{What is Internet Protocol (IP)?}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.2.1.tex}
+\subsection{What is an IP address?}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.2.2.tex}
+\subsection{What is DNS server? }\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.2.3.4.tex}
+\subsection{What is DHCP server? }\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.2.3.3.tex}
+\subsection{Types of IP address}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.2.3.tex}
+\subsection{ISO-OSI model}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.2.4.tex}
+\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter14/14.2.5.tex}
+\section{IPv4 in detail}\index{Understanding vi/vim editor}
+\input{content/chapter14/14.3.tex}
+\subsection{IPv4 address structure}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.3.1.tex}
+\subsection{Network bit \& Host bit}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.3.2.tex}
+\subsection{Netmask}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.3.3.tex}
+\subsection{What is classful addressing?}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.3.4.tex}
+\subsection{Loopback \& 0.0.0.0 address}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.3.4.1.tex}
+\subsection{Network address}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.3.5.tex}
+\subsection{Broadcast address}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.3.6.tex}
+\subsection{Calculating number of host IP}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.3.7.tex}
+\subsection{Practice}\index{dsdsd sdsdsd sdsd sdsd}
+\input{content/chapter14/14.3.9.tex}
+\section{Subnetting}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.4.tex}
+\subsection{Drawback of classful addressing}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.4.1.tex}
+\subsection{Subnetting/CIDR}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.4.2.tex}
+\subsection{Working of CIDR}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.4.3.tex}
+\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter14/14.4.4.tex}
+\section{Networking in action}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.5.tex}
+\subsection{Assigning hostname}\index{}
+\input{content/chapter14/14.5.1.tex}
+\subsection{/etc/hosts file}\index{}
+\input{content/chapter14/14.5.4.tex}
+\subsection{Setting up IP address}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter14/14.5.2.tex}
+\subsection{Network monitoring commands}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter15/15.2.1.tex}
+\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter14/14.5.3.tex}
+
+
+%%%%%-----------------------
+%%%%
+%%%%
+%%%%%----------------------------------------------------------------------------------------
+%%%%%	CHAPTER 15
+%%%%%----------------------------------------------------------------------------------------
+%\chapterimage{index16.png} % Table of contents heading image
+%\chapter{System \& network monitoring}
+%%%%%-----------------------
+%\section{System monitoring}\index{Understanding vi/vim editor}
+%\input{content/chapter15/15.1.tex}
+%\subsection{Commands}\index{Understanding vi/vim editor!About vi/vim editor}
+%\input{content/chapter15/15.1.1.tex}
+%\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+%\input{content/chapter15/15.1.2.tex}
+%\section{Network monitoring}\index{Understanding vi/vim editor}
+%\input{content/chapter15/15.2.tex}
+%\subsection{Commands}\index{Understanding vi/vim editor!About vi/vim editor}
+%\input{content/chapter15/15.2.1.tex}
+%\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+%\input{content/chapter15/15.2.2.tex}
+%%%%%-----------------------
+%%%%
+%%%%%----------------------------------------------------------------------------------------
+%%%%%	CHAPTER 16
+%%%%%----------------------------------------------------------------------------------------
+\chapterimage{index17.png} % Table of contents heading image
+\chapter{Logs in Linux}
+%%%%%-----------------------
+\section{Logging in Linux}\index{Understanding vi/vim editor}
+\input{content/chapter16/16.1.tex}
+\subsection{Introduction to logs}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter16/16.1.1.tex}
+\subsection{Syslog \& rsyslog}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter16/16.1.2.tex}
+\subsection{Rules in /etc/rsyslog.conf}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter16/16.1.3.tex}
+\subsection{Important log files}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter16/16.1.4.tex}
+\subsection{Logger command}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter16/16.1.5.tex}
+\subsection{Viewing logs}
+\input{content/chapter16/16.1.7.tex}
+\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter16/16.1.6.tex}
+%%%%%-----------------------
+%%%%
+%%%%
+%%%%%----------------------------------------------------------------------------------------
+%%%%%	CHAPTER 17
+%%%%%----------------------------------------------------------------------------------------
+\chapterimage{index18.png} % Table of contents heading image
+\chapter{Boot process}
+%%%%%-----------------------
+\section{Booting in Linux}\index{Understanding vi/vim editor}
+\input{content/chapter17/17.1.tex}
+\subsection{What is boot process?}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter17/17.1.1.tex}
+\subsection{BIOS \& POST}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter17/17.1.2.tex}
+\subsection{MBR}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter17/17.1.3.tex}
+\subsection{Bootloader}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter17/17.1.4.tex}
+\subsection{Run levels/Targets}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter17/17.1.5.tex}
+\subsection{Systemd}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter17/17.1.6.tex}
+\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter17/17.1.7.tex}
+%%%%%-----------------------
+%%%%
+%%%%%----------------------------------------------------------------------------------------
+%%%%%	CHAPTER 17
+%%%%%----------------------------------------------------------------------------------------
+\chapterimage{index19.png} % Table of contents heading image
+\chapter{Linux OS Installation}
+%%%%%-----------------------
+\section{Installation in detail}\index{Understanding vi/vim editor}
+\input{content/chapter18/18.1.tex}
+\subsection{Minimum system requirements for RHEL}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter18/18.1.1.tex}
+\subsection{Partition requirement}\index{Understanding vi/vim editor!About vi/vim editor}
+\input{content/chapter18/18.1.2.tex}
+\subsection{Creating a virtual machine}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter18/18.1.3.tex}
+\subsection{RHEL OS using Anaconda}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter18/18.1.4.tex}
+%%%%%-----------------------
+%%%%
+%%%%
+%%%%%----------------------------------------------------------------------------------------
+%%%%%	CHAPTER 19
+%%%%%----------------------------------------------------------------------------------------
+\chapterimage{index20.png} % Table of contents heading image
+\chapter{Remote Access in Linux}
+%%%%%-----------------------
+\section{SSH, scp \& rsync}
+\input{content/chapter19/19.1.tex}
+\subsection{What is SSH?}
+\input{content/chapter19/19.1.1.tex}
+\subsection{What is a server \& client?}
+\input{content/chapter19/19.1.8.tex}
+\subsection{Setting up SSH server \& client on RHEL}
+\input{content/chapter19/19.1.2.tex}
+\subsection{Password based SSH connection}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter19/19.1.3.tex}
+\subsection{Passwordless SSH connection}\index{Understanding vi/vim editor}
+\input{content/chapter19/19.1.4.tex}
+\subsection{What is scp command?}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter19/19.1.5.tex}
+\subsection{What is rsync command?}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter19/19.1.7.tex}
+\subsection{Practice}\index{Understanding vi/vim editor!Practice}
+\input{content/chapter19/19.1.6.tex}
+%%%%%-----------------------
+
+
+
+%%%%
+%%%%
+%%%%
+%%%%
+%%%%%----------------------------------------------------------------------------------------
+%%%%%	PART
+%%%%%----------------------------------------------------------------------------------------
+%%%%
+%%%%\part{System Admin Level II}
+%%%%
+%%%%%----------------------------------------------------------------------------------------
+%%%%%	CHAPTER 3
+%%%%%----------------------------------------------------------------------------------------
+%%%%
+%%%%\chapterimage{index4.pdf} % Chapter heading image
+%%%%
+%%%%\chapter{Presenting Information}
+%%%%
+%%%%\section{Table}\index{Table}
+%%%%
+%%%%\begin{table}[h]
+%%%%\centering
+%%%%\begin{tabular}{l l l}
+%%%%\toprule
+%%%%\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
+%%%%\midrule
+%%%%Treatment 1 & 0.0003262 & 0.562 \\
+%%%%Treatment 2 & 0.0015681 & 0.910 \\
+%%%%Treatment 3 & 0.0009271 & 0.296 \\
+%%%%\bottomrule
+%%%%\end{tabular}
+%%%%\caption{Table caption}
+%%%%\label{tab:example} % Unique label used for referencing the table in-text
+%%%%%\addcontentsline{toc}{table}{Table \ref{tab:example}} % Uncomment to add the table to the table of contents
+%%%%\end{table}
+%%%%
+%%%%Referencing Table \ref{tab:example} in-text automatically.
+%%%%
+%%%%%------------------------------------------------
+%%%%
+%%%%\section{Figure}\index{Figure}
+%%%%
+%%%%\begin{figure}[h]
+%%%%\centering\includegraphics[scale=0.5]{placeholder.jpg}
+%%%%\caption{Figure caption}
+%%%%\label{fig:placeholder} % Unique label used for referencing the figure in-text
+%%%%%\addcontentsline{toc}{figure}{Figure \ref{fig:placeholder}} % Uncomment to add the figure to the table of contents
+%%%%\end{figure}
+%%%%
+%%%%Referencing Figure \ref{fig:placeholder} in-text automatically.
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+%\chapter*{Bibliography}
+%\addcontentsline{toc}{chapter}{\textcolor{ocre}{Bibliography}} % Add a Bibliography heading to the table of contents
+%
+%%------------------------------------------------
+%
+%\section*{Articles}
+%\addcontentsline{toc}{section}{Articles}
+%\printbibliography[heading=bibempty,type=article]
+%
+%%------------------------------------------------
+%
+%\section*{Books}
+%\addcontentsline{toc}{section}{Books}
+%\printbibliography[heading=bibempty,type=book]
+%
+%%----------------------------------------------------------------------------------------
+%%	INDEX
+%%----------------------------------------------------------------------------------------
+%
+%\cleardoublepage % Make sure the index starts on an odd (right side) page
+%\phantomsection
+%\setlength{\columnsep}{0.75cm} % Space between the 2 columns of the index
+%\addcontentsline{toc}{chapter}{\textcolor{ocre}{Index}} % Add an Index heading to the table of contents
+%\printindex % Output the index
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+

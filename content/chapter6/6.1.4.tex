@@ -1,0 +1,93 @@
+\setlength{\columnsep}{3pt}
+\begin{flushleft}
+
+	\paragraph{}
+	\bigskip
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=.2]{content/practise.jpg}
+	\end{figure}	
+	\begin{enumerate}
+		\item \textbf{Select the correct octal representation for: 
+		\begin{itemize}
+			\item user: read,write,execute
+			\item group: write,execute
+			\item other: no permission
+			\item SUID for user
+		\end{itemize}}
+		
+		\begin{enumerate}[label=(\alph*)]
+			\item 4730 %correct
+			\item 2730
+			\item 1730
+			\item 0730  
+		\end{enumerate}
+		\bigskip
+		\bigskip	
+		
+		\item \textbf{Select all statement true about SUID permission.}
+		\begin{enumerate}[label=(\alph*)]
+			\item SUID is used to provide same user ownership to all files in folder.
+			\item SUID allows local users to run binaries with the permissions of the binary owner. %correct
+			\item SUID provides read, write and execute permission to all users.
+			\item SUID can be applied on command binaries. %correct
+		\end{enumerate}
+		\bigskip
+		\bigskip
+		\newpage
+		\item \textbf{Which of the following commands have SUID applied on themselves by default? (Select all that applies.)}
+		\begin{enumerate}[label=(\alph*)]
+			\item passwd    %correct
+			\item umount    %correct
+			\item su       %correct
+			\item useradd
+		\end{enumerate}
+		\bigskip
+		\bigskip
+		\item \textbf{Which of the following permissions can be applied on directories? (Select all that applies.)}
+		\begin{enumerate}[label=(\alph*)]
+			\item SUID
+			\item SGID                 %correct
+			\item Sticky bit          %correct
+			\item None of above
+		\end{enumerate}	
+		\bigskip
+		\bigskip
+		\item \textbf{Select the correct octal representation for SUID, SGID and sticky bit respectively.}
+		\begin{enumerate}[label=(\alph*)]
+			\item 4,2,1    %correct
+			\item 1,2,3
+			\item 1,2,4
+			\item 2,1,3
+		\end{enumerate}
+		\bigskip
+		\bigskip
+		\item \textbf{Which of the following directory have sticky bit applied on it by default?}
+		\begin{enumerate}[label=(\alph*)]
+			\item /var
+			\item /mnt   
+			\item /tmp     %correct
+			\item /run
+		\end{enumerate}
+		\bigskip
+		\bigskip
+		\item \textbf{State whether true or false. SGID can be applied on files and directories.}
+		\begin{enumerate}[label=(\alph*)]
+			\item True
+			\item False  %correct
+		\end{enumerate}
+		\bigskip
+		\bigskip
+		\item \textbf{State whether true or false. Sticky bit can be applied only on directories.}
+		\begin{enumerate}[label=(\alph*)]
+			\item True %correct
+			\item False
+		\end{enumerate}
+	\end{enumerate}
+
+	
+\end{flushleft}
+
+\newpage
+

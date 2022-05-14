@@ -1,0 +1,159 @@
+\indexentry{Introduction to Operating System|hyperpage}{13}
+\indexentry{Introduction to Operating System!What is an Operating System (OS)?|hyperpage}{14}
+\indexentry{Introduction to Operating System!Architecture of OS|hyperpage}{15}
+\indexentry{Introduction to Operating System!Types of OS|hyperpage}{17}
+\indexentry{Introduction to Operating System!Practice|hyperpage}{18}
+\indexentry{Introduction to Linux|hyperpage}{19}
+\indexentry{Introduction to Linux!What is open source software(OSS)?|hyperpage}{20}
+\indexentry{Introduction to Linux!Linux V/S Windows|hyperpage}{21}
+\indexentry{Introduction to Linux!Linux V/S Windows|hyperpage}{22}
+\indexentry{Introduction to Linux!Understanding console, terminal, command line and shell|hyperpage}{23}
+\indexentry{Introduction to Linux!Linux distributions|hyperpage}{24}
+\indexentry{Introduction to Linux!Practice|hyperpage}{26}
+\indexentry{Linux directory structure|hyperpage}{29}
+\indexentry{Linux directory structure!Filesystem Hierarchy Standard (FHS)|hyperpage}{30}
+\indexentry{Linux directory structure!Important Directory You Should Know About|hyperpage}{31}
+\indexentry{Linux directory structure!Practice|hyperpage}{35}
+\indexentry{Linux commands|hyperpage}{38}
+\indexentry{Linux commands!Basic commands|hyperpage}{39}
+\indexentry{Linux commands!Advance commands|hyperpage}{49}
+\indexentry{Linux commands!Practice|hyperpage}{65}
+\indexentry{User \& group basics|hyperpage}{81}
+\indexentry{User \& group basics!What is a user?|hyperpage}{82}
+\indexentry{User \& group basics!What is a group?|hyperpage}{83}
+\indexentry{User \& group basics!Practice|hyperpage}{92}
+\indexentry{User \& group commands|hyperpage}{94}
+\indexentry{User \& group commands!User commands|hyperpage}{95}
+\indexentry{User \& group commands!Content of /etc/skel directory|hyperpage}{105}
+\indexentry{User \& group commands!Group commands|hyperpage}{106}
+\indexentry{User \& group commands!Practice|hyperpage}{107}
+\indexentry{Permissions|hyperpage}{111}
+\indexentry{Permissions!Introduction to permissions|hyperpage}{112}
+\indexentry{Permissions!Type of files|hyperpage}{113}
+\indexentry{Permissions!Type of users|hyperpage}{114}
+\indexentry{Permissions!Type of permissions|hyperpage}{115}
+\indexentry{Permissions!Permission commands|hyperpage}{117}
+\indexentry{Permissions!Umask|hyperpage}{126}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{128}
+\indexentry{Sudo user|hyperpage}{131}
+\indexentry{Sudo user!What is a sudo user?|hyperpage}{132}
+\indexentry{Sudo user!Creating sudo users|hyperpage}{132}
+\indexentry{Sudo user!Practice|hyperpage}{135}
+\indexentry{Special permissions|hyperpage}{136}
+\indexentry{Special permissions!SUID|hyperpage}{137}
+\indexentry{Special permissions!SGID|hyperpage}{141}
+\indexentry{Special permissions!Sticky bit|hyperpage}{144}
+\indexentry{Special permissions!Practice|hyperpage}{147}
+\indexentry{Access control list(ACL)|hyperpage}{150}
+\indexentry{Access control list(ACL)!What is ACL?|hyperpage}{151}
+\indexentry{Access control list(ACL)!ACL commands|hyperpage}{152}
+\indexentry{Access control list(ACL)!Practice|hyperpage}{156}
+\indexentry{Text processing|hyperpage}{159}
+\indexentry{Text processing!Commands|hyperpage}{160}
+\indexentry{Text processing!Practice|hyperpage}{172}
+\indexentry{I/ORedirection|hyperpage}{175}
+\indexentry{I/ORedirection!What are standard input and standard output?|hyperpage}{176}
+\indexentry{Understanding vi/vim editor|hyperpage}{205}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{206}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{207}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{209}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{224}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{226}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{229}
+\indexentry{Understanding vi/vim editor|hyperpage}{233}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{234}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{235}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{237}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{246}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{248}
+\indexentry{Inodes \& Links|hyperpage}{251}
+\indexentry{Inodes \& Links!What are inodes?|hyperpage}{252}
+\indexentry{Inodes \& Links!Inode number and filesystem|hyperpage}{253}
+\indexentry{Inodes \& Links!Links and it's types|hyperpage}{254}
+\indexentry{Inodes \& Links!Difference between links|hyperpage}{256}
+\indexentry{Inodes \& Links!Practice|hyperpage}{257}
+\indexentry{Understanding vi/vim editor|hyperpage}{259}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{260}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{260}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{261}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{265}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{266}
+\indexentry{Understanding vi/vim editor|hyperpage}{268}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{269}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{270}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{273}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{274}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{277}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{281}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{285}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{328}
+\indexentry{Understanding vi/vim editor|hyperpage}{330}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{331}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{332}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{333}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{334}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{338}
+\indexentry{Understanding vi/vim editor|hyperpage}{341}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{342}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{343}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{344}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{346}
+\indexentry{Understanding vi/vim editor|hyperpage}{349}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{350}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{353}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{358}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{359}
+\indexentry{Understanding vi/vim editor|hyperpage}{361}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{362}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{365}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{366}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{367}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{368}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{370}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{371}
+\indexentry{Understanding vi/vim editor|hyperpage}{373}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{374}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{377}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{378}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{380}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{382}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{383}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{384}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{385}
+\indexentry{dsdsd sdsdsd sdsd sdsd|hyperpage}{389}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{393}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{394}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{395}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{396}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{402}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{403}
+\indexentry{|hyperpage}{404}
+\indexentry{|hyperpage}{405}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{407}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{414}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{417}
+\indexentry{Understanding vi/vim editor|hyperpage}{421}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{422}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{423}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{424}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{427}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{428}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{430}
+\indexentry{Understanding vi/vim editor|hyperpage}{433}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{434}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{435}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{437}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{438}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{441}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{442}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{446}
+\indexentry{Understanding vi/vim editor|hyperpage}{451}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{452}
+\indexentry{Understanding vi/vim editor!About vi/vim editor|hyperpage}{453}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{454}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{459}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{469}
+\indexentry{Understanding vi/vim editor|hyperpage}{472}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{477}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{479}
+\indexentry{Understanding vi/vim editor!Practice|hyperpage}{481}
